@@ -15,3 +15,10 @@ sayHi("Bob");
 sayHi("Charlie");
 
 export { sayHi };
+
+function createGreeting(name, greeting = "Hello") {
+    return `${greeting}, ${name}!`;
+}
+
+console.log(createGreeting("Alice"));
+console.log(createGreeting("Bob", "Good morning"));
