@@ -1,4 +1,5 @@
 import reactRouterLogo from "../assets/example.svg";
+import Teacher from "../sandbox/Teacher.jsx";
 
 const publicLogoUrl = `${import.meta.env.BASE_URL}logo.webp`;
 
@@ -10,7 +11,6 @@ export default function HomePage() {
       </header>
       <main>
         <p>Welcome to the home page...</p>
-
         <article>
           <h2>Displaying images in React</h2>
 
