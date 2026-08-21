@@ -16,7 +16,7 @@ export default function HomePage() {
         <Greeting name="Jane" />
         <Greeting name="Anna" />
         <Greeting name="Ole" />
-        <Button handleClick={() => console.log("Button clicked!")} />
+        <Button />
         <p>Welcome to the home page...</p>
         <article>
           <h2>Displaying images in React</h2>

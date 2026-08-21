@@ -1,7 +1,7 @@
-const Button = ({ handleClick }) => {
-  return (
-    <button onClick={handleClick}>Click me</button>
-  );
-};
+export default function Button() {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
 
-export default Button;
+  return <button onClick={handleClick}>Click Me</button>;
+}
