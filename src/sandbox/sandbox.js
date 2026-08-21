@@ -8,9 +8,8 @@ function showWelcomeMessage() {
 
 showWelcomeMessage();
 
-function sayHi(name) {
-    console.log(`Hi, ${name}!`);
-}
+const sayHi = (name) => `Hi, ${name}!`;
+
 sayHi("Alice");
 sayHi("Bob");
 sayHi("Charlie");

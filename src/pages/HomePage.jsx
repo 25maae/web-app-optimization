@@ -2,6 +2,7 @@ import reactRouterLogo from "../assets/example.svg";
 import Teacher from "../sandbox/Teacher.jsx";
 import Welcome from "../sandbox/Welcome.jsx";
 import Greeting from "../sandbox/Greeting.jsx";
+import Button from "../sandbox/Button.jsx";
 
 const publicLogoUrl = `${import.meta.env.BASE_URL}logo.webp`;
 
@@ -15,6 +16,7 @@ export default function HomePage() {
         <Greeting name="Jane" />
         <Greeting name="Anna" />
         <Greeting name="Ole" />
+        <Button handleClick={() => console.log("Button clicked!")} />
         <p>Welcome to the home page...</p>
         <article>
           <h2>Displaying images in React</h2>
